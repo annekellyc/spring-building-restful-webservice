@@ -1,7 +1,7 @@
 # Building a RESTful Web Service #
 
 **Build an executable JAR**  
-$ ./gradlew clean build && java -jar build/libs/spring-building-restful-webservice-0.1.0.jar
+$ ./gradlew run
 
 **Execute test**  
 $ ./gradlew cleanTest test

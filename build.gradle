@@ -13,11 +13,9 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
+apply plugin: 'application'
 
-jar {
-    baseName = 'spring-building-restful-webservice'
-    version =  '0.1.0'
-}
+mainClassName = "com.hello.Application"
 
 repositories {
     mavenLocal()
